@@ -5,6 +5,7 @@ import ComponentsApp from './PartOfComponents/ComponentsApp';
 import LifecycleApp from './PartOfLifecycle/LifecycleApp';
 import PropsApp from './PartOfProps/PropsApp';
 import StatesApp from './PartOfStates/StatesApp';
+import StyleDefinitonsApp from './PartOfStyleDefinitons/StyleDefinitionsApp';
 
 // Bu fonks icine hangi part kullanılacaksa o ekleniyor.
 function App() {
@@ -15,7 +16,8 @@ function App() {
       {/* <PropsApp /> */}
       {/* <StatesApp /> */}
       {/* <LifecycleApp/> */}
-      <ContactApp />
+      {/* <ContactApp /> */}
+      <StyleDefinitonsApp />
     </>
   );
 }
