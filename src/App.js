@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import ContactApp from './Contacts-App/ContactApp';
 import ComponentsApp from './PartOfComponents/ComponentsApp';
+import FetchApp from './PartOfFetching/FetchApp';
 import LifecycleApp from './PartOfLifecycle/LifecycleApp';
 import PropsApp from './PartOfProps/PropsApp';
 import StatesApp from './PartOfStates/StatesApp';
@@ -17,7 +18,8 @@ function App() {
       {/* <StatesApp /> */}
       {/* <LifecycleApp/> */}
       {/* <ContactApp /> */}
-      <StyleDefinitonsApp />
+      {/* <StyleDefinitonsApp /> */}
+      <FetchApp />
     </>
   );
 }
