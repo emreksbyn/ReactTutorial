@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
 
-console.log(styles);
+// console.log(styles);
 
 export default function B() {
   return (

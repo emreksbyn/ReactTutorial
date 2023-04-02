@@ -5,6 +5,7 @@ import ComponentsApp from './PartOfComponents/ComponentsApp';
 import FetchApp from './PartOfFetching/FetchApp';
 import LifecycleApp from './PartOfLifecycle/LifecycleApp';
 import PropsApp from './PartOfProps/PropsApp';
+import RoutingApp from './PartOfRouting/RoutingApp';
 import StatesApp from './PartOfStates/StatesApp';
 import StyleDefinitonsApp from './PartOfStyleDefinitons/StyleDefinitionsApp';
 
@@ -19,7 +20,8 @@ function App() {
       {/* <LifecycleApp/> */}
       {/* <ContactApp /> */}
       {/* <StyleDefinitonsApp /> */}
-      <FetchApp />
+      {/* <FetchApp /> */}
+      <RoutingApp />
     </>
   );
 }
